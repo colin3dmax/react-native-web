@@ -24,6 +24,9 @@ var {
   StyleSheet,
   Text,
   TouchableHighlight,
+
+  TouchableOpacity,
+  TouchableWithoutFeedback,
   View,
 } = ReactNative;
 
@@ -218,6 +221,12 @@ var TicTacToeApp = createReactClass({
     return (
       <View style={styles.container}>
         <Text style={styles.title}>EXTREME T3</Text>
+
+        <TouchableOpacity onPress={()=>{alert(33)}}>
+          <Text>Test</Text>
+        </TouchableOpacity>
+
+
         <View style={styles.board}>
           {rows}
         </View>

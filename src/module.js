@@ -25,6 +25,7 @@ export { default as UIManager } from './apis/UIManager';
 export { default as Vibration } from './apis/Vibration';
 
 // components
+export { default as Alert } from './components/Alert';
 export { default as ActivityIndicator } from './components/ActivityIndicator';
 export { default as Button } from './components/Button';
 export { default as Image } from './components/Image';

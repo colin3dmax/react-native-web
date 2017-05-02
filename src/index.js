@@ -30,6 +30,7 @@ import {
   Vibration,
 
   // components
+  Alert,
   ActivityIndicator,
   Button,
   Image,
@@ -88,6 +89,7 @@ const ReactNative = {
   Vibration,
 
   // components
+  Alert,
   ActivityIndicator,
   Button,
   Image,
