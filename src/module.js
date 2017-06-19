@@ -43,6 +43,8 @@ export {
   default as TouchableWithoutFeedback
 } from './components/Touchable/TouchableWithoutFeedback';
 export { default as View } from './components/View';
+export { default as Picker } from './components/Picker';
+export { default as Modal } from './components/Modal';
 
 // propTypes
 export { default as ColorPropType } from './propTypes/ColorPropType';

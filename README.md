@@ -52,11 +52,17 @@ Exported modules:
 
 * Components
   * [`ActivityIndicator`](docs/components/ActivityIndicator.md)
+  * [`Alert`](docs/components/Alert.md) new
   * [`Button`](docs/components/Button.md)
   * [`Image`](docs/components/Image.md)
   * [`ListView`](docs/components/ListView.md)
+  * [`Modal`](docs/components/Modal.md) new
+  * [`Picker`](docs/components/Picker.md) new
   * [`ProgressBar`](docs/components/ProgressBar.md)
+  * [`RefreshControl`](docs/components/RefreshControl.md) new
   * [`ScrollView`](docs/components/ScrollView.md)
+  * [`StaticContainer`](docs/components/StaticContainer.md) new
+  * [`StatusBar`](docs/components/StatusBar.md) new
   * [`Switch`](docs/components/Switch.md)
   * [`Text`](docs/components/Text.md)
   * [`TextInput`](docs/components/TextInput.md)

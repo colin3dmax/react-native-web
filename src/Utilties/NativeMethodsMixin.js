@@ -6,10 +6,10 @@
  */
 'use strict';
 
-import UIManager from 'UIManager';
+import UIManager from './UIManager';
 
 import ReactDOM from 'react-dom';
-import setNativeProps from './setNativeProps.web';
+import setNativeProps from './setNativeProps';
 
 var NativeMethodsMixin = {
   /**

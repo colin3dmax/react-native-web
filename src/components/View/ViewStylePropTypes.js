@@ -18,6 +18,7 @@ module.exports = {
    * @platform unsupported
    */
   elevation: number,
+  tintColor:ColorPropType,
   /**
    * @platform web
    */

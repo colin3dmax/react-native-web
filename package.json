@@ -1,6 +1,6 @@
 {
-  "name": "react-native-web",
-  "version": "0.0.89",
+  "name": "@cross2d/react-native-web",
+  "version": "0.1.0",
   "description": "React Native for Web",
   "main": "dist/index.js",
   "files": [
@@ -17,7 +17,7 @@
     "examples": "start-storybook -p 9001 -c ./examples/.storybook --dont-track",
     "fmt": "find performance src -name '*.js' | grep -v -E '(node_modules|dist)' | xargs prettier --print-width=100 --single-quote --write",
     "lint": "eslint performance src --ignore-path .gitignore",
-    "release": "npm run build && npm run build:umd && npm publish",
+    "release": "npm run build && npm run build:umd && npm publish --access public",
     "test": "npm run lint && npm run test:jest",
     "test:jest": "jest",
     "test:watch": "npm run test:jest -- --watch"
