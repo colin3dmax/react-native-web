@@ -65,11 +65,15 @@ class AlertIOS {
 
     const confirmCallback = callbacks.pop() || noop;
     const cancelCallback = callbacks.pop() || noop;
+    let totalMsg = message;
+    if(title!=''){
+      totalMsg=title+":"+message;
+    }
     if (buttons.length === 1) {
-      alert(title+":"+message);
+      alert(totalMsg);
       confirmCallback();
     } else if (buttons.length === 2) {
-      if (confirm(title+":"+message)) {
+      if (confirm(totalMsg)) {
         confirmCallback();
       } else {
         cancelCallback();
