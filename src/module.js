@@ -45,6 +45,7 @@ export {
 export { default as View } from './components/View';
 export { default as Picker } from './components/Picker';
 export { default as Modal } from './components/Modal';
+export { default as RefreshControl } from './components/RefreshControl';
 
 // propTypes
 export { default as ColorPropType } from './propTypes/ColorPropType';

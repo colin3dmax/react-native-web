@@ -48,7 +48,7 @@ import {
   View,
   Picker,
   Modal,
-
+  RefreshControl,
   // propTypes
   ColorPropType,
   EdgeInsetsPropType,
@@ -109,6 +109,7 @@ const ReactNative = {
   View,
   Picker,
   Modal,
+  RefreshControl,
 
   // propTypes
   ColorPropType,

@@ -1,6 +1,6 @@
 {
   "name": "@cross2d/react-native-web",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "React Native for Web",
   "main": "dist/index.js",
   "files": [
@@ -34,7 +34,8 @@
     "inline-style-prefixer": "^3.0.2",
     "normalize-css-color": "^1.0.2",
     "prop-types": "^15.5.8",
-    "react-timer-mixin": "^0.13.3"
+    "react-timer-mixin": "^0.13.3",
+    "react-mixin": "^3.0.5"
   },
   "devDependencies": {
     "@kadira/storybook": "^2.5.1",
