@@ -143,7 +143,7 @@ const ScrollView = createReactClass({
         children={this.props.children}
         collapsable={false}
         ref={this._setInnerViewRef}
-        style={[horizontal && styles.contentContainerHorizontal, contentContainerStyle]}
+        style={[{flex:1},horizontal && styles.contentContainerHorizontal, contentContainerStyle]}
       />
     );
 
