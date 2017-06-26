@@ -2,6 +2,9 @@ export { default as createDOMElement } from './modules/createDOMElement';
 export { default as findNodeHandle } from './modules/findNodeHandle';
 export { default as NativeModules } from './modules/NativeModules';
 export { default as processColor } from './modules/processColor';
+export { default as dismissKeyboard } from './modules/dismissKeyboard';
+
+
 export { render, unmountComponentAtNode } from 'react-dom';
 
 // APIs
@@ -23,6 +26,8 @@ export { default as Platform } from './apis/Platform';
 export { default as StyleSheet } from './apis/StyleSheet';
 export { default as UIManager } from './apis/UIManager';
 export { default as Vibration } from './apis/Vibration';
+
+
 
 // components
 export { default as Alert } from './components/Alert';

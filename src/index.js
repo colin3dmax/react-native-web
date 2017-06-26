@@ -8,6 +8,7 @@ import {
   createDOMElement,
   NativeModules,
   processColor,
+  dismissKeyboard,
 
   // APIs
   Animated,
@@ -69,6 +70,7 @@ const ReactNative = {
   createDOMElement,
   NativeModules,
   processColor,
+  dismissKeyboard,
 
   // APIs
   Animated,
